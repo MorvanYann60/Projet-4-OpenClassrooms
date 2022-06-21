@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    /*color: #575757!important;*/
 }
 
 .container {
@@ -723,7 +723,8 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    /*color: #333333!important;*/
+    color: white;
 }
 
 h4 {
@@ -737,6 +738,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 11px;
 }
 
 .portfolio-thumb {
@@ -775,7 +777,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
@@ -823,6 +825,27 @@ h4 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.png");
+}
+
+.texte-corriger {
+    font-size: 20px;
+}
+
+.taille-corriger {
+    font-size: 18px;
+}
+
+.contact-corriger {
+    font-size: 14px;
+}
+
+.couleur-corriger {
+    color: white;
+    font-size: 14px;
+}
+
+.couleur-titre {
+    color: white;
 }
 
 @media (max-width: 1024px) {
